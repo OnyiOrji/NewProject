@@ -94,7 +94,7 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     margin-bottom: 72px;
     text-align: center;
 }
@@ -197,17 +197,21 @@ FEATURES
     padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.16);
 }
+#recent .books{
+    display: flex;
+    
+}
 .books {
     display: flex;
-    padding-left: -100px;
-    
-    
+    flex-wrap: wrap;
+    padding-left: -90px;
 }
 .book {
-    width: 56%;
-    padding: 32px;
+    width: 25%;
+    padding: 24px;
 }
 .book__img {
+    width: 99%;
     max-height: 380px;
     transition: all 300ms ease;
 }
@@ -221,7 +225,7 @@ FEATURES
     transform: scale(1.03);
 }
 .book__title {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 8px;
 }
 .book__title:hover {
